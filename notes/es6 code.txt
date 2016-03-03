@@ -1,0 +1,1 @@
+http://www.sitepoint.com/setting-up-es6-project-using-babel-browserify/

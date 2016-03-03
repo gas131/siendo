@@ -1,0 +1,10 @@
+alignment between CONTACTO and searchbar
+collapsible search
+fixed navbar
+scroll size articles
+examples:http://visualworking.com/, https://ausweb.com.au/tutorials/modern-web-design-trends/, https://www.thebestdesigns.com/
+jquery image library
+bootstrap dock
+social network bar
+search bar
+hot module replacement

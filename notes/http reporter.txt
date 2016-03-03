@@ -1,0 +1,10 @@
+, {
+        reporter: 'good-http',
+        events: { error: '*' },
+        config: {
+            endpoint: 'localhost/logs:3000',
+            wreck: {
+                headers: { 'x-api-key' : 12345 }
+            }
+        }
+    }

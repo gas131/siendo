@@ -1,0 +1,55 @@
+body 
+{
+	padding-top: 92px; 
+}
+
+h1, h2, h3, h4, h5, h6, a
+{
+    font-family: 'Hero', Tahoma, Geneva, sans-serif;
+    color:#FFFFFF !important;
+    letter-spacing: 1px;
+}
+
+h1{
+	font-size: 40pt;
+	font-weight: 500;
+	text-align: center;
+}
+
+a
+{
+	font-weight: 600 !important;
+}
+
+.navbar-default
+{
+	height: 110px;
+}
+
+.black
+{
+	background-color: #242d34;
+}
+
+.icon
+{
+	padding-right: 5px;
+	color:#FFFFFF;
+}
+
+.toolbar
+{
+	line-height: 6 !important;
+}
+
+@font-face {
+    font-family: 'Hero';
+    src: url('fonts/Hero Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
