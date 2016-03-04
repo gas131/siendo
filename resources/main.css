@@ -3,6 +3,13 @@ body
 	padding-top: 92px; 
 }
 
+article
+{
+	height: 60vh;
+	width: 80%;
+	margin: auto;
+}
+
 h1, h2, h3, h4, h5, h6, a
 {
     font-family: 'Hero', Tahoma, Geneva, sans-serif;
@@ -11,9 +18,15 @@ h1, h2, h3, h4, h5, h6, a
 }
 
 h1{
-	font-size: 40pt;
+	font-size: 60pt;
 	font-weight: 500;
 	text-align: center;
+	padding-top: 30px;
+}
+h2{
+	max-width: 700px;
+	margin: auto;
+	padding-top: 30px;
 }
 
 a
@@ -23,7 +36,7 @@ a
 
 .navbar-default
 {
-	height: 110px;
+	height: 15vh;
 }
 
 .black
@@ -37,14 +50,9 @@ a
 	color:#FFFFFF;
 }
 
-.toolbar
-{
-	line-height: 6 !important;
-}
-
 @font-face {
     font-family: 'Hero';
-    src: url('fonts/Hero Light.otf');
+    src: url('fonts/HeroLight.otf');
     font-weight: normal;
     font-style: normal;
 }

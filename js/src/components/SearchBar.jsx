@@ -5,7 +5,7 @@ class SearchBar extends React.Component{
 	{
 		return (
 			<form className="navbar-form navbar-right" role="search">
-				<div className="form-group toolbar">
+				<div className="form-group">
 					<span className='glyphicon glyphicon-search icon' aria-label='Busqueda' aria-hidden='true' />
 					<input type="text" className="form-control" placeholder="Buscar" />
 				</div>

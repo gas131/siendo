@@ -19774,7 +19774,7 @@
 					{ className: 'navbar navbar-default navbar-fixed-top black' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'container-fluid' },
+						{ className: 'container' },
 						_react2.default.createElement(
 							'div',
 							{ className: 'navbar-header' },
@@ -19794,7 +19794,6 @@
 						_react2.default.createElement(
 							'div',
 							{ className: 'collapse navbar-collapse', id: 'navbarCollapse' },
-							_react2.default.createElement(_SearchBar2.default, null),
 							_react2.default.createElement(
 								'ul',
 								{ className: 'nav navbar-nav navbar-right' },
@@ -19803,9 +19802,14 @@
 									null,
 									_react2.default.createElement(
 										'a',
-										{ className: 'toolbar', href: '#' },
+										{ href: '#' },
 										'CONTACTO'
 									)
+								),
+								_react2.default.createElement(
+									'li',
+									null,
+									_react2.default.createElement(_SearchBar2.default, null)
 								)
 							)
 						)
@@ -19864,7 +19868,7 @@
 					{ className: "navbar-form navbar-right", role: "search" },
 					_react2.default.createElement(
 						"div",
-						{ className: "form-group toolbar" },
+						{ className: "form-group" },
 						_react2.default.createElement("span", { className: "glyphicon glyphicon-search icon", "aria-label": "Busqueda", "aria-hidden": "true" }),
 						_react2.default.createElement("input", { type: "text", className: "form-control", placeholder: "Buscar" })
 					)
@@ -19924,6 +19928,11 @@
 						'h1',
 						null,
 						'SIENDO'
+					),
+					_react2.default.createElement(
+						'h2',
+						null,
+						'LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NAM ODIO NIBH, MOLESTIE SEMPER FELIS IN.'
 					)
 				);
 			}
